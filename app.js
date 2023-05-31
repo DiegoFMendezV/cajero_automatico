@@ -1,6 +1,6 @@
-let cuenta1 = { nombre: 'Diego', saldo: 200, contraseña: 1234}
-let cuenta2 = { nombre: 'Julie', saldo: 290, contraseña: 4321}
-let cuenta3 = { nombre: 'Isabella', saldo: 150, contraseña: 1020}
+let cuenta1 = { nombre: 'Diego', contraseña: 1234}
+let cuenta2 = { nombre: 'Julie', contraseña: 4321}
+let cuenta3 = { nombre: 'Isabella', contraseña: 1020}
 
 function login(){
   let user = document.getElementById("name").value
